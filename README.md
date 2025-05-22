@@ -1,5 +1,18 @@
 # Bundle Recommendation with Item Causation-enhanced Multi-view Learning
-This is the Pytorch implementation for paper " Bundle Recommendation with Item Causation-enhanced Multi-view Learning "
+This is the Pytorch implementation for the model **BunCa** of the paper "**Bundle Recommendation with Item Causation-enhanced Multi-view Learning**", published at ECML-PKDD'24.
+
+## Citation
+
+```
+@inproceedings{nguyen2024bundle,
+  title={Bundle Recommendation with Item-Level Causation-Enhanced Multi-view Learning},
+  author={Nguyen, Huy-Son and Bui, Tuan-Nghia and Nguyen, Long-Hai and Hoang, Hung and Thi Nguyen, Cam-Van and Le, Hoang-Quynh and Le, Duc-Trong},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={324--341},
+  year={2024},
+  organization={Springer}
+}
+```
 
 ![model architecture](fig/math_model2_cropped-1.png)
 
@@ -11,7 +24,7 @@ This is the Pytorch implementation for paper " Bundle Recommendation with Item C
 
 ## Hyperparams
 
-Some important hyper parameters:
+Some important hyperparameters:
 - `lrs`: learning rate
 - `sw`: residual connection weight
 - `w1/w2`: Cohesive view weight of user/bundle
